@@ -1,0 +1,16 @@
+{
+  "name": "randomizer-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "play": "./index.js"
+  },
+  "scripts": {
+    "prepublishOnly": "eslint 'src/**/*.{js,ts}'"
+  },
+  "author": "Valeria Titova <valeria.titova.chel@gmail.com>",
+  "repository": {},
+  "license": "ISC",
+  "private": true
+}
