@@ -10,7 +10,6 @@
     "prepublishOnly": "eslint 'src/**/*.{js,ts}'"
   },
   "author": "Valeria Titova <valeria.titova.chel@gmail.com>",
-  "repository": {},
   "license": "ISC",
   "private": true
 }

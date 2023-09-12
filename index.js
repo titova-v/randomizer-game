@@ -5,6 +5,7 @@ const {
     stdin: input,
     stdout: output,
 } = require('node:process');
+
 const rl = readline.createInterface({ input, output });
 
 const MAX_NUM = 100;
