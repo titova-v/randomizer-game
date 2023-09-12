@@ -1,7 +1,7 @@
 {
   "name": "randomizer-game",
   "version": "1.0.0",
-  "description": "",
+  "description": "console game guess the number",
   "main": "index.js",
   "bin": {
     "play": "./index.js"

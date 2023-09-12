@@ -17,17 +17,17 @@ function getRandomInt(max) {
 
 function checkNum(inputNum) {
     if (isNaN(Number(inputNum)) || isNaN(parseInt(inputNum))) {
-        rl.question(`Неверный формат ввода. Введите число\n`, checkNum);
+        rl.question(`Invalid input format. Enter the number\n`, checkNum);
     } else if (inputNum == RANDOM_NUM) {
-        console.log(`Отгадано число ${RANDOM_NUM}`);
+        console.log(`Number ${RANDOM_NUM} guessed`);
         rl.close();
     }
     else if (inputNum > RANDOM_NUM){
-        rl.question(`Меньше\n`, checkNum);
+        rl.question(`Less\n`, checkNum);
     }
     else if (inputNum < RANDOM_NUM) {
-        rl.question(`Больше\n`, checkNum);
+        rl.question(`Greater\n`, checkNum);
     }
 }
 
-rl.question(`Загадано число от 0 до ${MAX_NUM}\n`, checkNum);
+rl.question(`A number from 0 to ${MAX_NUM} is guessed\n`, checkNum);
