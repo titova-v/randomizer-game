@@ -6,9 +6,6 @@
   "bin": {
     "play": "./index.js"
   },
-  "scripts": {
-    "prepublishOnly": "eslint 'src/**/*.{js,ts}'"
-  },
   "author": "Valeria Titova <valeria.titova.chel@gmail.com>",
   "license": "ISC",
   "private": true
